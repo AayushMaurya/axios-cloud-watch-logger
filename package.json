@@ -3,20 +3,37 @@
   "version": "1.0.0",
   "description": "module to log axios requests and responses to aws cloudwatch",
   "main": "index.js",
+  "exports": {
+    "import": "./index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AayushMaurya/axios-cloud-watch-logger.git"
   },
   "keywords": [
-    "axios"
+    "axios",
+    "cloudwatch",
+    "logging",
+    "aws",
+    "monitoring",
+    "axios-logger"
   ],
   "author": "Aayush Maurya",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AayushMaurya/axios-cloud-watch-logger/issues"
   },
-  "homepage": "https://github.com/AayushMaurya/axios-cloud-watch-logger#readme"
+  "homepage": "https://github.com/AayushMaurya/axios-cloud-watch-logger#readme",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-mock": "^29.7.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.744.0",
+    "axios": "^1.7.9"
+  }
 }
