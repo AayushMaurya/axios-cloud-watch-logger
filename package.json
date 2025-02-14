@@ -1,0 +1,22 @@
+{
+  "name": "axios-cloud-watch-logger",
+  "version": "1.0.0",
+  "description": "module to log axios requests and responses to aws cloudwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AayushMaurya/axios-cloud-watch-logger.git"
+  },
+  "keywords": [
+    "axios"
+  ],
+  "author": "Aayush Maurya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AayushMaurya/axios-cloud-watch-logger/issues"
+  },
+  "homepage": "https://github.com/AayushMaurya/axios-cloud-watch-logger#readme"
+}
